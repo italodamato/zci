@@ -36,7 +36,7 @@ module ZCI
     article = {
       id: article_xml[:id],
       section_id: article_xml[:section_id],
-      draft: true
+      draft: true,
       title: article_xml.xpath('title').text,
       body: article_xml.xpath('body').text,
       position: article_xml[:position],
