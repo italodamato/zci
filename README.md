@@ -46,7 +46,7 @@ SYNOPSIS
     zci [global options] command [command options] [arguments...]
 
 VERSION
-    0.3.1
+    0.4.1
 
 GLOBAL OPTIONS
     -c, --config=<s> - Project-specific configuration file (default: /home/crowdin/zci.yml)
